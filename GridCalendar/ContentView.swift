@@ -10,13 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     let layout = [
-        GridItem(.flexible(minimum: 40)),
-        GridItem(.flexible(minimum: 40)),
-        GridItem(.flexible(minimum: 40)),
-        GridItem(.flexible(minimum: 40)),
-        GridItem(.flexible(minimum: 40)),
-        GridItem(.flexible(minimum: 40)),
-        GridItem(.flexible(minimum: 40)),
+        GridItem(.adaptive(minimum: 40)),
     ]
     
     var body: some View {
